@@ -16,11 +16,11 @@ class Discordjss extends Client {
         this.permissions = require("../helpers/permissions"); 
     }
 
-    // This function is used to load a command and add it to the collection
+    // Cette fonction permet de charger une commande et de l'ajouter à la collection
     loadCommand(commandPath, commandName){
         try {
             const props = new (require(`.${commandPath}${path.sep}${commandName}`))(this);
-            this.logger.log(`Loading Command: ${props.help.name}. 👌`, "log");
+            this.logger.log(`Chargement de Commande: ${props.help.name}. 👌`, "log");
             props.conf.location = commandPath;
             if(props.init) props.init(this);
             this.commands.set(props.help.name, props);
@@ -29,16 +29,16 @@ class Discordjss extends Client {
             });
             return false;
         } catch (e) {
-            return `Unable to load command ${commandName}: ${e}`;
+            return `Impossible de charger la commande ${commandName}: ${e}`;
         }
     }
 
-    // This function is used to unload a command (you need to load them again)
+    // Cette fonction est utilisée pour charger une commande (vous devez les charger à nouveau)
     async unloadCommand (commandPath, commandName) {
         let command;
         if(this.commands.has(commandName)) command = this.commands.get(commandName);
         else if(this.aliases.has(commandName)) command = this.commands.get(this.aliases.get(commandName));
-        if(!command) return `The command \`${commandName}\` doesn't seem to exist, nor is it an alias. Try again!`;
+        if(!command) return `La commande \`${commandName}\` ne semble pas exister, ni n'est-ce un alias. Réessayer!`;
         if(command.shutdown) await command.shutdown(this);
         delete require.cache[require.resolve(`.${commandPath}${path.sep}${commandName}.js`)];
         return false;

@@ -86,7 +86,7 @@ module.exports = class {
         }
         cmdCooldown[message.author.id][cmd.help.name] = Date.now() + cmd.conf.cooldown;
 
-        this.client.logger.log(`${message.author.username} (${message.author.id}) ran command ${cmd.help.name}`, "cmd");
+        this.client.logger.log(`${message.author.username} (${message.author.id}) a fait la commande ${cmd.help.name}`, "cmd");
         try {
             cmd.run(message, args, data);
         } catch(e){

@@ -1,1 +1,42 @@
-# Discbot.js
+# Template Discord.js Bot avec base de donnée MongoDB
+
+Voici une template pour bot discord en discord.js.
+
+## Installation
+
+Si cela n'est pas encore fait, installer [npm](https://nodejs.org/fr/).
+
+Ensuite faites cette commande :
+```javascript
+npm install
+```
+Vous devrez ensuite configurer votre fichier `config.js` ce trouvant à la racine
+- Vous devrez y inscrire votre token que vous trouverer [ici](https://discord.com/developers/applications) dans *application < bot < token copy*
+- Ensuite y inscrire votre lien mongoDB
+
+## Comment avoir votre lien mongoDB ?
+
+- Rendez vous sur le [site de mongo](https://www.mongodb.com/cloud/atlas) et créer un compte gratuitement
+- Créer un nouveau cluster gratuit *(la création peut prendre plusieurs minute)*
+- Cliquer sur **Connect to cluster** ensuite **Connect using MongoDB Compass**
+- Copier l'url et remplacer test en fin de ligne par le nom que vous voulez donnez à votre base de donnée exemple *discordbot*
+
+## Comment créer une nouvelle commande ?
+
+Suivez l'exemple qui se trouve dans le dossier **template**
+Dans celui ci vous trouverez deux fichier : 
+- `template-command` : fichier exemple avec des commentaires explicatifs
+- `template-command-sans-com` : fichier exemple sans les commentaires
+
+Lorsque vous aurez fait votre commande insérer la dans le dossier commands < puis le dossier dans le quelle vous voulez le classez __exemple :__ *commands < musique*
+
+## Comment créer un nouveau event ?
+
+Suivez l'exemple qui se trouve dans le dossier **template**
+- `template-events` : Remplacer le nom du fichier par le nom de l'événement et mettez le dans le dossier events
+
+## Support / Besoin d'aide ?
+Les pull requests sont les bienvenues. Créer un issue ou rejoigner le [serveur discord](https://discord.gg/QU5mKFC)
+
+## Crédit
+[Androz2091](https://github.com/Androz2091/Discbot.js)

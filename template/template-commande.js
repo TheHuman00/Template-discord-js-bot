@@ -25,7 +25,7 @@ class Avatar extends Command { //le nom de votre commande (!! avec une majuscule
 		});
 	}
 
-    async run (message, args) {                                             // ici le coeur de votre commande
+    async run (message, args) {                                             // ici, le coeur de votre commande
                                                                             // c'est ce qu'il va se passer lorsque quelqu'un enverra votre commande ou son alias 
 		let user = await this.client.resolveUser(args[0]);
 		if(!user) user = message.author;
