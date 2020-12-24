@@ -1,0 +1,15 @@
+{
+  "name": "discbot",
+  "version": "1.0.0",
+  "description": "discordjs",
+  "main": "discbot.js",
+  "scripts": {
+    "test": "node discbot.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "github:discordjs/discord.js",
+    "json-beautify": "^1.1.1",
+    "mongoose": "^5.7.1"
+  }
+}
