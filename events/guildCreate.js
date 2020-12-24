@@ -14,7 +14,7 @@ module.exports = class {
 
 
 		const thanksEmbed = new Discord.MessageEmbed()
-			.setAuthor("Merci de m'avoir ajouté sur votre serveur ! / ")
+			.setAuthor("Merci de m'avoir ajouté sur votre serveur !")
 			.setDescription("/help pour voir les commandes disponible")
 			.setColor(this.client.config.embed.color)
 			.setFooter(this.client.config.embed.footer)
