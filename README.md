@@ -1,6 +1,6 @@
 # Template Discord.js Bot avec base de donnée MongoDB
 
-Voici une template pour bot discord en discord.js.
+Voici une template pour bot discord en discord.js. Avec base de donnée, et plusieurs language disponible, ...
 
 ## Installation
 
