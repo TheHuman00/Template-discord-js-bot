@@ -19,7 +19,7 @@ Vous devrez ensuite configurer votre fichier `config.js` ce trouvant à la racin
 - Rendez vous sur le [site de mongo](https://www.mongodb.com/cloud/atlas) et créer un compte gratuitement
 - Créer un nouveau cluster gratuit *(la création peut prendre plusieurs minute)*
 - Cliquer sur **Connect to cluster** ensuite **Connect using MongoDB Compass**
-- Copier l'url et remplacer test en fin de ligne par le nom que vous voulez donnez à votre base de donnée exemple *discordbot*
+- Copier l'url et remplacer *test* en fin de ligne par le nom que vous voulez donnez à votre base de donnée exemple *discordbot*
 
 ## Comment créer une nouvelle commande ?
 
