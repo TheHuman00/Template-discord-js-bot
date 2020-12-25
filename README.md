@@ -7,6 +7,7 @@ Voici une template pour bot discord en discord.js. Avec base de donnée, et plus
 Si cela n'est pas encore fait, installer [npm](https://nodejs.org/fr/). *(De préférence la version LTS)*
 
 Ensuite faites cette commande de le terminal de votre dossier ou vous avez mis le template :
+(Vous ne savez pas comment ouvrir le terminal d'un dossier rendez vous [ici](https://github.com/TheHuman00/Template-discord-js-bot/blob/master/TERMINAL.md))
 ```javascript
 npm install
 ```
