@@ -11,8 +11,15 @@ Ensuite faites cette commande :
 npm install
 ```
 Vous devrez ensuite configurer votre fichier `config.js` ce trouvant à la racine
-- Vous devrez y inscrire votre token que vous trouverer [ici](https://discord.com/developers/applications) dans *application < bot < token copy*
-- Ensuite y inscrire votre lien mongoDB
+- Vous devrez y inscrire votre **token**.
+- Ensuite y inscrire votre **lien mongoDB**.
+
+## Comment avoir votre Token discord ?
+
+- Rendez vous sur le [panneau développeur de discord](https://discord.com/developers/applications).
+- Allez dans **application** et selectionné la votre, ou créer en une.
+- Ensuite rendez vous dans l'onglet **Bot** et copier votre token.
+- (N'oubliez pas de cocher les deux case sous **Privileged Gateway Intents** !)
 
 ## Comment avoir votre lien mongoDB ?
 
