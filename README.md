@@ -39,4 +39,4 @@ Suivez l'exemple qui se trouve dans le dossier **template**
 Les pull requests sont les bienvenues. Créer un issue ou rejoigner le [serveur discord](https://discord.gg/QU5mKFC)
 
 ## Crédit
-[Androz2091](https://github.com/Androz2091/Discbot.js)
+[Androz2091](https://github.com/Androz2091/)
