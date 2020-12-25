@@ -4,9 +4,9 @@ Voici une template pour bot discord en discord.js. Avec base de donnée, et plus
 
 ## Installation
 
-Si cela n'est pas encore fait, installer [npm](https://nodejs.org/fr/).
+Si cela n'est pas encore fait, installer [npm](https://nodejs.org/fr/). *(De préférence la version LTS)*
 
-Ensuite faites cette commande :
+Ensuite faites cette commande de le terminal de votre dossier ou vous avez mis le template :
 ```javascript
 npm install
 ```
