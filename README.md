@@ -8,10 +8,11 @@ Si cela n'est pas encore fait, installer [npm](https://nodejs.org/fr/). *(De pr�
 
 Ensuite faites cette commande de le terminal de votre dossier ou vous avez mis le template :
 
-(Vous ne savez pas comment ouvrir le terminal d'un dossier rendez vous [ici](https://github.com/TheHuman00/Template-discord-js-bot/blob/master/TERMINAL.md))
 ```javascript
 npm install
 ```
+(Vous ne savez pas comment ouvrir le terminal d'un dossier rendez vous [ici](https://github.com/TheHuman00/Template-discord-js-bot/blob/master/TERMINAL.md))
+
 Vous devrez ensuite configurer votre fichier `config.js` ce trouvant à la racine
 - Vous devrez y inscrire votre **token**. ([Rubrique associé](https://github.com/TheHuman00/Template-discord-js-bot#comment-avoir-votre-token-discord-))
 - Ensuite y inscrire votre **lien mongoDB**. ([Rubrique associé](https://github.com/TheHuman00/Template-discord-js-bot#comment-avoir-votre-lien-mongodb-))
