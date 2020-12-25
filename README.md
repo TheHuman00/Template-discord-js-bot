@@ -11,8 +11,8 @@ Ensuite faites cette commande :
 npm install
 ```
 Vous devrez ensuite configurer votre fichier `config.js` ce trouvant à la racine
-- Vous devrez y inscrire votre **token**.
-- Ensuite y inscrire votre **lien mongoDB**.
+- Vous devrez y inscrire votre **token**. ([Rubrique associé](https://github.com/TheHuman00/Template-discord-js-bot#comment-avoir-votre-token-discord-))
+- Ensuite y inscrire votre **lien mongoDB**. ([Rubrique associé](https://github.com/TheHuman00/Template-discord-js-bot#comment-avoir-votre-lien-mongodb-))
 
 ## Comment avoir votre Token discord ?
 
