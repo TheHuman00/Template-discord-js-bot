@@ -7,7 +7,7 @@
     "test": "node discbot.js"
   },
   "dependencies": {
-    "chalk": "^4.1.1",
+    "chalk": "^5.0.1",
     "discord.js": "github:discordjs/discord.js",
     "json-beautify": "^1.1.1",
     "mongoose": "^5.7.1"
