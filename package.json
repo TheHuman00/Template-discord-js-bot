@@ -10,6 +10,6 @@
     "chalk": "^4.1.1",
     "discord.js": "github:discordjs/discord.js",
     "json-beautify": "^1.1.1",
-    "mongoose": "^5.7.1"
+    "mongoose": "^6.5.3"
   }
 }
